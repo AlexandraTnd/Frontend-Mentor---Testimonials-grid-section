@@ -89,3 +89,14 @@ p {
 .gray-color {
     color: hsl(0, 0%, 81%);
 }
+
+@media screen and (max-width: 600px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    main {
+        height: auto;
+    }
+}
